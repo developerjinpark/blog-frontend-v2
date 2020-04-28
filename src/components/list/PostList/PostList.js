@@ -7,13 +7,13 @@ const cx = classNames.bind(styles)
 
 const PostItem = () => (
     <div className={cx('post-item')}>
-        <h2><Link>Title</Link></h2>
+        <h2><Link to="/">Title</Link></h2>
         <div className={cx('date')}>2020-04-28</div>
         <p>Content</p>
         <div className={cx('tags')}>
-            <Link>#tag</Link>
-            <Link>#tag</Link>
-            <Link>#tag</Link>
+            <Link to="/">#tag</Link>
+            <Link to="/">#tag</Link>
+            <Link to="/">#tag</Link>
         </div>
     </div>
 )
