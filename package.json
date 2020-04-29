@@ -11,6 +11,7 @@
     "immutable": "^4.0.0-rc.12",
     "include-media": "^1.4.9",
     "marked": "^1.0.0",
+    "moment": "^2.24.0",
     "open-color": "^1.7.0",
     "prismjs": "^1.20.0",
     "react": "^16.13.1",
